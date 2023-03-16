@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,temp;
+    a=10;
+    b=20;
+    temp=0;
+    temp=a;
+    a=b;
+    b=temp;
+    printf("The value of a : %d",a);
+    printf("\nThe value of b : %d",b);
+    return 0;
+}
